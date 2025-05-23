@@ -35,11 +35,6 @@ public class MainController {
         return ResponseEntity.ok(ApiResponse.success(token));
     }
 
-    @PostMapping("/test")
-    public ResponseEntity<ApiResponse<Void>> test() {
-        return ResponseEntity.ok(ApiResponse.success(null));
-    }
-
     @PostMapping("/onlyadmin")
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<ApiResponse<Void>> onlyAdmin() {
