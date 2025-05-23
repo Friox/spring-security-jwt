@@ -1,7 +1,8 @@
 # spring-security-jwt
 
 ## 🚀 프로젝트 개요
-이 프로젝트는 Spring Security와 JWT(JSON Web Token)를 활용하여 간단한 인증 및 권한 부여 기능을 구현한 예제 애플리케이션입니다.  
+이 프로젝트는 Spring Security와 JWT(JSON Web Token)를 활용하여  
+간단한 인증 및 권한 부여 기능을 구현한 예제 애플리케이션입니다.  
 RESTful API 형태로 제공되며, 사용자 회원가입, 로그인, 그리고 역할 기반의 접근 제어를 구현했습니다.
 
 ## ✨ 주요 특징
